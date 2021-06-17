@@ -179,9 +179,9 @@ def start():
     user.login(phone, password)  # 用户登录   这里需要更改
     user.daysign()  # 日常签到领积分，1g流量日包
     QwxPush(user.resp)
-
+'''
 def main_handler(event, context):
     return start()
-
+'''
 if __name__ == '__main__':
     start()
